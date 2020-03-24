@@ -1,0 +1,252 @@
+/* Front-end Style Guide
+Layout
+The designs were created to the following widths:
+Mobile: 375px
+Desktop: 1366px
+Colors
+Primary
+Scissors Gradient: hsl(39, 89%, 49%) to hsl(40, 84%, 53%)
+Paper Gradient: hsl(230, 89%, 62%) to hsl(230, 89%, 65%)
+Rock Gradient: hsl(349, 71%, 52%) to hsl(349, 70%, 56%)
+Lizard Gradient: hsl(261, 73%, 60%) to hsl(261, 72%, 63%)
+Cyan: hsl(189, 59%, 53%) to hsl(189, 58%, 57%)
+Neutral
+Dark Text: hsl(229, 25%, 31%)
+Score Text: hsl(229, 64%, 46%)
+Header Outline: hsl(217, 16%, 45%)
+Background
+Radial Gradient: hsl(214, 47%, 23%) to hsl(237, 49%, 15%)
+Fonts
+Family: Barlow Semi Condensed
+Weights: 600, 700 */
+html {
+  height: 100%;
+  background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: 100%;
+}
+
+/* text */
+h1 {
+  font-size: 200%;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin: auto 0 auto 0;
+  padding: 0.5% 0 auto 0;
+}
+
+h2 {
+  font-size: 400%;
+}
+
+h3 {
+  color: hsl(229, 64%, 46%);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: -1%
+}
+
+h4 {
+  color: hsl(217, 16%, 45%);
+  font-size: 4.5rem;
+  text-align: center;
+  margin: 0 0 10% 0;
+}
+
+.resultplay{
+  text-align: center;
+}
+
+/* divs */
+.topbar {
+  margin: 1% auto auto auto;
+  padding: 1% 3% 1% 3%;
+  display: table;
+  width: 65%;
+  border-radius: 10px;
+  border: 3px solid hsl(217, 16%, 45%);
+}
+
+.title {
+  width: 6%;
+  float: left;
+}
+
+.score {
+  display: block;
+  float: right;
+  border-radius: 10px;
+  background-color: white;
+  width: 20%;
+}
+
+/* game styling */
+.wraps {
+  color: hsl(229, 25%, 31%);
+  background-color: white;
+  width: 55px;
+  height: 55px;
+  padding: 25px;
+  border: inset 15px transparent;
+  background-clip: padding-box, border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 5px 5px hsl(217, 16%, 75%);
+}
+
+
+/* game styling results */
+.wrapplay{
+  width: 155px;
+  height: 155px;
+  padding: 75px;
+  border:inset 45px transparent;
+}
+.borderplay{
+  width: 155px;
+  height: 155px;
+}
+
+
+
+.wrap1 {
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  box-shadow: 0 5px hsl(230, 69%, 42%), inset 0 5px 5px hsl(217, 16%, 75%);
+}
+
+.wrap2 {
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+  box-shadow: 0 5px hsl(349, 51%, 32%), inset 0 5px 5px hsl(217, 16%, 75%);
+}
+
+.wrap3 {
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  box-shadow: 0 5px hsl(39, 69%, 29%), inset 0 5px 5px hsl(217, 16%, 75%);
+}
+
+.wrap4 {
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+  box-shadow: 0 5px hsl(189, 39%, 33%), inset 0 5px 5px hsl(217, 16%, 75%);
+}
+
+.wrap5 {
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+  box-shadow: 0 5px hsl(261, 53%, 40%), inset 0 5px 5px hsl(217, 16%, 75%);
+}
+
+/* position images */
+.container {
+  background-image: url("images/bg-pentagon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 0 0 0;
+}
+.containerz{
+  margin-top:-3%;
+  margin-left:-3%;
+}
+
+.icons {
+  display: table;
+  height: 700px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col-paper {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  left: 200%;
+  bottom: -120px;
+}
+
+.col-rock {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  bottom: -110px;
+}
+
+.col-scissor {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  left: 110%;
+  bottom: -120px;
+}
+
+.col-spock {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  left: 70%;
+  bottom: -140px;
+}
+
+.col-lizard {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  left: 90%;
+  bottom: -140px;
+}
+
+/* .border:hover{
+background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+} */
+
+.wrapss:hover{
+  background-image: linear-gradient(hsl(217, 16%, 75%), hsl(217, 16%, 75%)), radial-gradient(circle at top left, hsl(141, 73%, 60%), hsl(161, 72%, 63%));
+  box-shadow: 0 5px hsl(121, 53%, 40%), inset 0 5px 5px gray;
+}
+
+/* buttons */
+.rules{
+margin-left:85%;
+font-size:20px;
+padding:10px 30px 10px 30px;
+border-radius:10px;
+color:white;
+background-color:transparent;
+border-color:white;
+text-transform: uppercase;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.again{
+font-size:30px;
+padding: 20px 300px 20px 300px;
+margin:5% auto auto auto;
+text-align: center;
+}
+.form-popup{
+  display: none;
+  position:fixed;
+  bottom:0;
+  right:0px;
+  z-index:9;
+  background-color: white;
+  border: 3px solid gray;
+  padding:1% 5% 1% 5%;
+
+}
+
+.closeforms{
+height: 50px;
+width:50px;
+margin-bottom:270px
+
+}
+
+#selectchoice{
+  display:none
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper, Scissors, Lizard, Spock</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+<!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <div class="title">
+      <h1>Rock
+        Paper
+        Scissors
+        Lizard
+        Spock</h1>
+    </div>
+    <form id="game" action="/"method="post">
+    <div class="score">
+      <h3>Score</h3>
+      <h4 class="points" id="points">0</h4>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container">
+    <div class=" icons">
+      <div class="row">
+        <div class="col-paper">
+          <div class=" wraps wrapss wrap1">
+         <img class=" border paper start" src="images/icon-paper.svg" alt="" value= "paper"  type="submit">
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-rock">
+          <div class=" wraps wrapss wrap2">
+            <img class="border rock start" src="images/icon-rock.svg" alt=""  value="rock" id="rock">
+          </div>
+        </div>
+        <div class="col-scissor">
+          <div class=" wraps wrapss wrap3">
+            <img class="border scissor start" src="images/icon-scissors.svg" alt="" value="scissors" >
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-spock">
+          <div class="col wraps wrapss wrap4">
+            <img class="border spock start" src="images/icon-spock.svg" alt="" value="spock" >
+          </div>
+        </div>
+        <div class="col-lizard">
+          <div class="col wraps wrapss wrap5">
+            <img class="border lizard start" src="images/icon-lizard.svg" alt="" value="lizard" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<button type="button"  onclick="openrules()"class="rules" name="button">Rules</button>
+  <!-- You Picked
+  The House Picked
+  <div class="winlose">
+    <h2> You Win</h2>
+    <h2> You Lose</h2>
+
+  </div>
+  <div class="again">
+    Play Again
+  </div>
+
+  <div class="rules">
+    Rules
+  </div> -->
+
+<div class="form-popup myForm" id="myForm" >
+  <label for="selectchoice">Location</label>
+  <h5 id="h5">RULES</h5>
+<input type="text" name="selectchoice"  id="selectchoice">
+</form>
+  <img src="images/image-rules-bonus.svg" alt="">
+  <img src="images/icon-close.svg" onclick="closeform()" class="closeforms" alt="">
+
+
+<script type="text/javascript" src=javascript.js>
+
+</script>
+</body>
+
+</html>
