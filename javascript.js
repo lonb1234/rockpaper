@@ -8,12 +8,6 @@ function closeform(){
   $(myForm).css("display", "none");
 }
 
-// var xyz=0
-// function choice(event){
-// xyz=$(this).attr('value')
-// alert(this.src)
-//
-// }
 $(".border").on("click", function(event){
 
     logEventV=($(this).attr('value'));
@@ -23,12 +17,12 @@ $(".border").on("click", function(event){
     $(selectchoice).val(logEventV)
     // alert($(h5).html())
 
-    $(points).html(+1)
+    // $(points).html(+1)
       $('#game').submit();
 })
 
 $(".again").on("click",function(){
   var scoreX = ($(scorez).text())
   $(points).val(scoreX)
-  
+  $(scorez).html(2)
 })
