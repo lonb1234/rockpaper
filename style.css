@@ -200,9 +200,6 @@ h4 {
   bottom: -140px;
 }
 
-/* .border:hover{
-background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
-} */
 
 .wrapss:hover{
   background-image: linear-gradient(hsl(217, 16%, 75%), hsl(217, 16%, 75%)), radial-gradient(circle at top left, hsl(141, 73%, 60%), hsl(161, 72%, 63%));
@@ -249,5 +246,8 @@ margin-bottom:270px
 }
 
 #selectchoice{
-  /* display:none */
+  display:none
+}
+#points{
+  display:none
 }
