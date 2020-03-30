@@ -221,8 +221,9 @@ border-color:white;
 text-transform: uppercase;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
+.d{padding: 120px 30% 0 30%}
 .again{
+  margin-left:85%;
 font-size:30px;
 padding: 20px 300px 20px 300px;
 margin:5% auto auto auto;
