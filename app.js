@@ -94,6 +94,6 @@ console.log(points2)
 });
 
 
-app.listen(3000, function() {
+app.listen(process.env.PORT, function() {
   console.log("server is running")
 })
