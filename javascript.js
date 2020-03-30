@@ -1,27 +1,28 @@
-  var logEventV=0
-function openrules(){
-$(myForm).css("display", "block");
+  var logEventV = 0
 
-}
+  function openrules() {
+    $(myForm).css("display", "block");
 
-function closeform(){
-  $(myForm).css("display", "none");
-}
+  }
 
-$(".border").on("click", function(event){
+  function closeform() {
+    $(myForm).css("display", "none");
+  }
 
-    logEventV=($(this).attr('value'));
+  $(".border").on("click", function(event) {
+
+    logEventV = ($(this).attr('value'));
     $(h5).html(logEventV)
 
-    alert(logEventV)
+
     $(selectchoice).val(logEventV)
 
 
-      $('#game').submit();
-})
+    $('#game').submit();
+  })
 
-$(".again").on("click",function(){
-  var scoreX = ($(scorez).text())
-  $(points).val(scoreX)
+  $(".again").on("click", function() {
+    var scoreX = ($(scorez).text())
+    $(points).val(scoreX)
 
-})
+  })

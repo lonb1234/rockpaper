@@ -58,7 +58,7 @@ h4 {
   margin: 0 0 10% 0;
 }
 
-.resultplay{
+.resultplay {
   text-align: center;
 }
 
@@ -98,20 +98,18 @@ h4 {
   box-shadow: inset 0 5px 5px hsl(217, 16%, 75%);
 }
 
-
 /* game styling results */
-.wrapplay{
+.wrapplay {
   width: 155px;
   height: 155px;
   padding: 75px;
-  border:inset 45px transparent;
+  border: inset 45px transparent;
 }
-.borderplay{
+
+.borderplay {
   width: 155px;
   height: 155px;
 }
-
-
 
 .wrap1 {
   background-image: linear-gradient(white, white), radial-gradient(circle at top left, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
@@ -147,9 +145,10 @@ h4 {
   max-height: 100%;
   padding: 0 0 0 0;
 }
-.containerz{
-  margin-top:-3%;
-  margin-left:-3%;
+
+.containerz {
+  margin-top: -3%;
+  margin-left: -3%;
 }
 
 .icons {
@@ -200,54 +199,57 @@ h4 {
   bottom: -140px;
 }
 
-
-.wrapss:hover{
+.wrapss:hover {
   background-image: linear-gradient(hsl(217, 16%, 75%), hsl(217, 16%, 75%)), radial-gradient(circle at top left, hsl(141, 73%, 60%), hsl(161, 72%, 63%));
   box-shadow: 0 5px hsl(121, 53%, 40%), inset 0 5px 5px gray;
 }
 
 /* buttons */
-.rules{
-margin-left:85%;
-font-size:20px;
-padding:10px 30px 10px 30px;
-border-radius:10px;
-color:white;
-background-color:transparent;
-border-color:white;
-text-transform: uppercase;
+.rules {
+  margin-left: 85%;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  text-transform: uppercase;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
-.d{padding: 120px 30% 0 30%}
-.again{
-  margin-left:85%;
-font-size:30px;
-padding: 20px 300px 20px 300px;
-margin:5% auto auto auto;
-text-align: center;
+
+.d {
+  padding: 120px 30% 0 30%
 }
-.form-popup{
+
+.again {
+  margin-left: 85%;
+  font-size: 30px;
+  padding: 20px 300px 20px 300px;
+  margin: 5% auto auto auto;
+  text-align: center;
+}
+
+.form-popup {
   display: none;
-  position:fixed;
-  bottom:0;
-  right:0px;
-  z-index:9;
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  z-index: 9;
   background-color: white;
   border: 3px solid gray;
-  padding:1% 5% 1% 5%;
-
+  padding: 1% 5% 1% 5%;
 }
 
-.closeforms{
-height: 50px;
-width:50px;
-margin-bottom:270px
-
+.closeforms {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 270px
 }
 
-#selectchoice{
-  display:none
+#selectchoice {
+  display: none
 }
-#points{
-  display:none
+
+#points {
+  display: none
 }

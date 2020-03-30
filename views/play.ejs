@@ -7,7 +7,7 @@
   <title>Rock, Paper, Scissors, Lizard, Spock</title>
   <!-- css -->
   <link rel="stylesheet" href="style.css">
-<!-- google fonts -->
+  <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
 
   <!-- jquery -->
@@ -24,11 +24,11 @@
         Lizard
         Spock</h1>
     </div>
-      <form id="game" action="/play"method="post">
-    <div class="score">
-      <h3>Score</h3>
+    <form id="game" action="/play" method="post">
+      <div class="score">
+        <h3>Score</h3>
         <h4 class="scorez" id="scorez"><%= score1 %></h4>
-    </div>
+      </div>
   </div>
 
   <h2 class="resultplay"><%= winstatus %></h2>
@@ -38,38 +38,38 @@
   <div class="containerz">
 
 
-      <div class="row">
-        <div class="col-rock">
-          <div class=" wraps wrap2 wrapplay">
-            <img class="border rock borderplay" src="images/icon-<%= num2 %>.svg" alt="" >
-          </div>
-        </div>
-        <div class="col-scissor">
-          <div class=" wraps wrap3 wrapplay">
-            <img class="border scissor borderplay" src="images/icon-<%= npcpick %>.svg" alt="" >
-          </div>
+    <div class="row">
+      <div class="col-rock">
+        <div class=" wraps wrap2 wrapplay">
+          <img class="border rock borderplay" src="images/icon-<%= num2 %>.svg" alt="">
         </div>
       </div>
-<div class="d">
+      <div class="col-scissor">
+        <div class=" wraps wrap3 wrapplay">
+          <img class="border scissor borderplay" src="images/icon-<%= npcpick %>.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="d">
 
 
 
-<button type="submit" class="rules again" action="/index.html"name="Play Again">Play Again</button>
+      <button type="submit" class="rules again" action="/index.html" name="Play Again">Play Again</button>
 
-</div>
-<button type="button"  onclick="openrules()"class="rules" name="button">Rules</button>
+    </div>
+    <button type="button" onclick="openrules()" class="rules" name="button">Rules</button>
 
-<div class="form-popup myForm" id="myForm">
-  <label for="points">Location</label>
-  <h5 id="h5">RULES</h5>
-<input type="text" name="points"  id="points">
-  <img src="images/image-rules-bonus.svg" alt="">
-  <img src="images/icon-close.svg" onclick="closeform()" class="closeforms" alt="">
+    <div class="form-popup myForm" id="myForm">
+      <label for="points">Location</label>
+      <h5 id="h5">RULES</h5>
+      <input type="text" name="points" id="points">
+      <img src="images/image-rules-bonus.svg" alt="">
+      <img src="images/icon-close.svg" onclick="closeform()" class="closeforms" alt="">
 
-</form>
-<script type="text/javascript" src=javascript.js>
+      </form>
+      <script type="text/javascript" src=javascript.js>
 
-</script>
+      </script>
 </body>
 
 </html>
